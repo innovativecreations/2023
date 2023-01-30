@@ -1,2 +1,5 @@
+Made new repo named - Android
+Pull requested all the stuffs
+
 Used statefull widget 
 Changed(re-rendered) the text on the screen with button
