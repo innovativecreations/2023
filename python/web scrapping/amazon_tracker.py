@@ -11,8 +11,5 @@ r = requests.get("https://a.co/d/6Zdcukg", headers=headers)
 
 soup = BeautifulSoup(r.content, "lxml")
 
-price = soup.find(id="priceblock_ourprice").get_text()
-price_without_currency = price.split("$")[1]
-price_as_float = float(price_without_currency)
-print(price_as_float)
+
 
