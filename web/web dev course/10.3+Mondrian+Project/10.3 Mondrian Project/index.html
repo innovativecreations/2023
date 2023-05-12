@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    .container{
+      display: grid;
+      /* grid-template-rows: 3; */
+      grid-template: auto auto auto auto/ auto auto auto auto;
+      gap:0px;
+      width: 748px;
+      height: 748px;
+      background-color: black;
+    }
+    .red{
+      background-color: #E72F24;
+      width: 320px;
+      height: 414px;
+      margin:0 4.5px 4.5px 0;
+    }
+    .white{
+      background-color: #F0F1EC;
+    }
+    .blue{
+      background-color: #004592;
+    }
+    .yellow{
+      background-color: yellow;
+    }
+    .black{
+      background-color: black;
+    }
+    .second{
+      width: 419px;
+      height: 414px;
+      grid-column: span 3;
+      margin:0 0 4.5px 4.5px ;
+    }
+    .third{
+      width: 320px;
+      height:295px;
+      grid-row: span 2;
+      
+      margin:4.5px 4.5px 4.5px 0;
+    }
+    .forth{
+      width: 360px;
+      height: 295px;
+      grid-row: span 2;
+      grid-column: span 2;
+      
+      margin:4.5px;
+    }
+    .fifth{
+      height: 130px;
+      width: 50px;
+      margin:4.5px 0 5px 4.5px;
+    }
+    .sixth{
+      width: 50px;
+      height: 184px;
+      margin:5px 0 0 4.5px ;
+      grid-row: span 2;
+    }
+    .seventh{
+      width: 320px;
+      height: 20px;
+      margin:4.5px 4.5px 0 0;
+    }
+    .eighth{
+      width: 198px;
+      height: 20px;
+      margin:4.5px 4.5px 0 4.5px;
+    }
+    .ninth{
+      width:153px;
+      height: 20px;
+      margin:4.5px 4.5px 0 4.5px;
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="container">
+    <div class="red first"></div>
+    <div class="white second"></div>
+    <div class="third white"></div>
+    <div class="forth white"></div>
+    <div class="blue fifth"></div>
+    <div class="white sixth"></div>
+    <div class="white seventh"></div>
+    <div class="yellow eighth"></div>
+    <div class="red ninth"></div>
+  </div>
+</body>
+
+</html>
