@@ -1,0 +1,170 @@
+*{
+            
+    font-family: 'Rajdhani', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+/* 
+nav{
+    background-color: #F45B31;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto 0 auto;
+}
+
+a{
+    margin: 0 5px 0 5px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #FFEFBC;
+}
+
+.options{
+    margin-right: 20px;
+    margin-top: 5px;
+} */
+
+
+/************************** Main **********************/
+
+#main{
+    background-color: #F45B31;
+    margin: 0;
+    width: 100%;
+    /* position: absolute;
+    left: 0;
+    top: 0; */
+    font-family: 'Rajdhani', sans-serif;
+    color: #fff;
+}
+
+.container{
+    max-width: 1200px;
+    padding: 100px 50px 100px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* gap: 30px; */
+    margin: 0 auto 0 auto;
+    /* margin: 20px; */
+}
+
+.intro{
+    max-width: 400px;
+}
+
+.intro h1{
+    font-weight: 700;
+    font-size: 3.5rem;
+    margin-bottom: 5px;
+}
+
+.intro h3{
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.pic{
+    width: 450px;
+    border: 1px solid #E0AC28;
+    border-radius: 20px;
+}
+
+.pic:hover{
+    transform: rotate(-20);
+}
+
+a{
+    text-decoration: none;
+}
+.info-btn, a{
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #fff6d8;
+    text-decoration: underline;
+}
+a:hover{
+    text-shadow: 2px 3px #00000017;
+}
+.icons{
+    margin: 2px;
+}
+
+/****************************   Project  ***************************/
+
+
+#projects{
+    
+    position: relative;
+    background-color: #FBF3E9;
+    padding: 50px;
+    text-align: center;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.project{
+    margin: 100px;
+    width: 350px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 5px 5px #a3a3a30c;
+}
+
+.project:hover{
+    box-shadow: 6px 6px #a3a3a31a;
+}
+
+.project .img{
+    object-fit: contain;
+    width: 350px;
+    height: 300px;
+    background-color: #fff6d8;
+}
+
+.project > .info{
+    margin: 0 20px 0 20px
+}
+
+.section-heads{
+    margin-left: 30px;
+    font-size: 2rem;
+    color: #000;
+}
+#projects > .section-heads{
+    margin-bottom: 0;
+}
+
+
+/********************* Kaands ******************/
+
+#timeline{
+    display: flex;
+    justify-content: center;
+    background-color: #F45B31;
+}
+/* .done::before{
+    position: absolute;
+    content: " ";
+    height: 100%;
+    left: 10px;
+    width: 10px;
+    background-color: #fff;
+} */
+
+
+
