@@ -34,7 +34,7 @@
         }
 
         input {
-            width: 200px;
+            width: 300px;
             height: 20px;
             background-color: #343434;
             border-right: none;
@@ -42,6 +42,17 @@
             color: #fff;
             font-size: 0.9rem;
             margin-top: 10px;
+        }
+        button{
+            width: 80%;
+            height: 40px;
+            border: none;
+            border-radius: 10px;
+            background-color: #fdfdfd;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 50px;
+            margin-bottom: 80px;
         }
     </style>
 </head>
@@ -141,36 +152,28 @@
             <h2>Address</h2>
             <div class="parts">
                 <div class="box">
-                    <label for="fname">1. Father:</label><br>
-                    <input type="text" id="Father" name="Father">
+                    <label for="fname">1. Vill/House No:</label><br>
+                    <input type="text" id="House" name="Vill/House No">
                 </div>
                 <div class="box">
-                    <label for="lname">2. Mother:</label><br>
-                    <input type="text" id="Mother" name="Mother">
+                    <label for="lname">2. Post office:</label><br>
+                    <input type="text" id="ps" name="Post office">
                 </div>
                 <div class="box">
-                    <label for="fname">3. Son</label><br>
-                    <input type="text" id="Son" name="Son">
+                    <label for="fname">3. Police Stn</label><br>
+                    <input type="text" id="police" name="Police Stn">
                 </div>
                 <div class="box">
-                    <label for="lname">4. Son Part</label><br>
-                    <input type="text" id="son" name="son">
+                    <label for="lname">4. State</label><br>
+                    <input type="text" id="State" name="State">
                 </div>
                 <div class="box">
                     <label for="fname">5. Order</label><br>
-                    <input type="text" id="Order" name="Order">
+                    <input type="text" id="Pin Code" name="Pin Code">
                 </div>
-                <div class="box">
-                    <label for="lname">6. Daughter</label><br>
-                    <input type="text" id="Daughter" name="Daughter">
-                </div>
-                <div class="box">
-                    <label for="lname">7. Daughter</label><br>
-                    <input type="text" id="Daughter" name="Daughter">
-                </div>
-                
             </div>
         </div>
+        <button>Add</button>
     </form>
 </body>
 
