@@ -1,0 +1,15 @@
+{
+  "name": "myexpressserver",
+  "version": "1.0.0",
+  "description": "My first express server",
+  "main": "server.js",
+  "scripts": {
+    "test": "Nacho",
+    "start": "node server.js"
+  },
+  "author": "Mayank",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
